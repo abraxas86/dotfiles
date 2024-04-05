@@ -1,0 +1,15 @@
+# Colour Palette:
+# Love OS: https://lospec.com/palette-list/loveos
+set $drkRed       #800D28
+set $medRed       #AF1B26
+set $lgtRed       #E22929
+set $black        #090909
+set $darkestGrey  #232324
+set $drkGrey      #4D4A4b
+set $medGrey      #8E8287
+set $lgtGrey      #BFB4B3
+set $white        #E6DEDD
+
+# class                 border     backgr           text        indicator       child_border
+client.focused          $black     $lgtRed          $black      $lgtRed          $lgtGrey
+client.unfocused        $black     $darkestGrey     $lgtGrey    $darkestGrey    $darkestGrey

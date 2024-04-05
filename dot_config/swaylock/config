@@ -1,0 +1,64 @@
+#[Flags]
+debug
+daemonize
+indicator
+screenshot
+clock
+
+#[Font]
+font=Dark Angels
+font-size=50pt
+
+#[Input flags]
+grace=10
+indicator-caps-lock
+ignore-empty-password
+
+#[Ring size]
+indicator-radius=100
+indicator-thickness=15
+
+#[Background]
+effect-blur=5x10
+scaling=fill
+
+#[Ring Positioning]
+indicator-y-position=500
+#indicator-x-position=
+
+#[Colours-Capslock]
+inside-caps-lock-color=800D28
+caps-lock-bs-hl-color=FFD5CC
+caps-lock-key-hl-color=FF4764
+ring-caps-lock-color=F50078
+text-caps-lock-color=FFD5CC
+
+#[Colours: Normal]
+inside-color=000221
+ring-color=8F0076
+bs-hl-color=D20404
+key-hl-color=00A0C8
+text-color=FF4764
+line-color=4D004C
+
+#[Colours: Wrong]
+inside-wrong-color=800D28
+line-wrong-color=000000
+ring-wrong-color=E22929
+text-wrong-color=FFD5CC
+
+#[Colours: Clear]
+inside-clear-color=00BBFF
+line-clear-color=000000
+ring-clear-color=00228F
+text-clear-color=000769
+
+#[Colours: Verify]
+inside-ver-color=F5F136
+line-ver-color=000000
+ring-ver-color=C9A10E
+text-ver-color=000000
+
+#[Colours: Other]
+
+

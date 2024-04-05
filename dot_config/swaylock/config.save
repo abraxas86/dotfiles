@@ -1,0 +1,30 @@
+#[Flags]
+daemonize
+indicator
+screenshot
+clock
+ignore-empty-password
+
+#[Font]
+font="~/home/abraxas/.local/share/fonts/Vamps Crime.ttf"
+font-size=15pt
+
+#[Input flags]
+grace=0
+indicator-caps-lock
+
+#[Ring size]
+indicator-radius=100
+indicator-thickness=15
+
+#[Background]
+effect-blur=2x5
+scaling=fill
+
+#[Colours]
+ring-color=736464
+bs-hl-color=D204040
+key-hl-color=00A0C8
+inside-ver-color=FAC800
+line-wrong-color=101820
+

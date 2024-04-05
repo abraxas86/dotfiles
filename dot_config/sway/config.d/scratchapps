@@ -1,0 +1,11 @@
+#These programs will load with the config and
+#tuck into the scratchpad area.
+exec keepass
+
+  # KeePass
+    for_window [class="KeePass2"] {
+        move scratchpad
+        #resize set 1024 768
+    }
+    
+    bindsym $mod+shift+p exec swaymsg [class="KeePass2"] scratchpad show || exec keepass

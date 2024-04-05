@@ -1,0 +1,30 @@
+# Lenovo Thinkpad FN keys
+#Volume keys (F1-F3)
+binde =, XF86AudioRaiseVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
+binde =, XF86AudioLowerVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ -5% 
+bind =, XF86AudioMute, exec, pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+#Mic Mute (F4)
+bind =, XF86AudioMicMute, exec, pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+#Screen Brightness (F5/F6)
+binde =, XF86MonBrightnessUp, exec, brightnessctl set 5%+
+binde =, XF86MonBrightnessDown, exec, brightnessctl set 5%-
+
+#Screen Projection/Casting (F7)
+#bind = XF86Display
+
+# WLAN (F8)
+#bind = XF86WLAN
+
+#Settings (F9)
+bind =, XF86Tools, exec, code ~/.config/hyprland/hyprland.conf ~/.config/foot/foot.ini ~/.config/waybar/config.jsonc ~/.config/waybar/style.css
+
+# Bluetooth (F10)
+#bind = XF86Bluetooth
+
+# Keyboard (F11)
+#bind = XF86Keyboard
+
+# Favourites (F12)
+#bind = XF86Favorites

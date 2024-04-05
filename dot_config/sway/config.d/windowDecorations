@@ -1,0 +1,4 @@
+default_border normal
+
+for_window [app_id="ulauncher"] border pixel
+for_window [app_id="firefox"] border pixel

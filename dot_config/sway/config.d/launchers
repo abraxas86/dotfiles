@@ -1,0 +1,9 @@
+exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1 > ~/logs/ulauncher.log 2>&1
+set $menu ulauncher-toggle
+
+set $mod Mod4
+bindsym $mod+D exec $menu
+
+# A fallback in case ulauncher stops working
+#bindsym $mod+D exec wofi --show drun --allow-images
+bindsym $mod+shift+d exec wofi --show drun --allow-images
