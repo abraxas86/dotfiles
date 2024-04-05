@@ -15,13 +15,13 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 #bindsym XF86Display
 
 # WLAN (F8)
-#bindsym XF86WLAN
+bindsym XF86WLAN exec foot nmtui
 
 #Settings (F9)
-bindsym XF86Tools exec code ~/code-workspaces/systemConfigs.code-workspace
+bindsym XF86Tools exec chezmoi edit --apply
 
 # Bluetooth (F10)
-#bindsym XF86Bluetooth
+#bindsym XF86Bluetooth 
 
 # Keyboard (F11)
 #bindsym XF86Keyboard

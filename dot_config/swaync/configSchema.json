@@ -447,7 +447,7 @@
               },
               "active": {
                   "type": "bool",
-                  "description": "Wether the toggle button is active as default or not",
+                  "description": "Whether the toggle button is active as default or not",
                   "default": false
               }
             }
