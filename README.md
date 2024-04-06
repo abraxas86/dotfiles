@@ -8,9 +8,9 @@ These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if the
 - Foot
 
 - lf-sixel-git
-    -libsixel
-    -chafa
-    -a monospaced Nerd font of your choice
+    - libsixel
+    - chafa
+    - a monospaced Nerd font of your choice
 
 - htop
 
