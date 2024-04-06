@@ -2,3 +2,5 @@ default_border normal
 
 for_window [app_id="ulauncher"] border pixel
 for_window [app_id="firefox"] border pixel
+for_window [class="Spotify"] border pixel
+for_window [class="discord"] border pixel

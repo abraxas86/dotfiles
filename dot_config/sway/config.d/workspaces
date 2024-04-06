@@ -48,5 +48,5 @@ bindsym $mod+0 workspace number 10
 ## APPLICATION RULES ##
 for_window [class="Code"] move container to workspace number 1
 for_window [app_id="firefox"] move container to workspace number 3
-for_window [class="spotify"] move container to workspace number 8
+for_window [class="Spotify"] move container to workspace number 8
 for_window [class="discord"] move container to workspace number 10
