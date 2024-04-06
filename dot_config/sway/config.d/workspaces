@@ -1,0 +1,52 @@
+#Workspace Configuration (Requires a proper "Nerd" font)
+#More info here: https://www.nerdfonts.com
+
+## WORKSPACE DEFINITIONS ##
+### Note: WS icons set in waybar's config.jasonc file
+
+# WS1: VS Code
+bindsym $mod+1 workspace number 1
+bindsym $mod+Shift+1 move container to workspace number 1
+
+# WS2: Terminals
+bindsym $mod+2 workspace number 2
+bindsym $mod+Shift+2 move container to workspace number 2
+
+# WS3: Firefox
+bindsym $mod+3 workspace number 3
+bindsym $mod+Shift+3 move container to workspace number 3
+
+# WS4: remember to update waybar's config.jasonc file
+#      for persistent desktops
+bindsym $mod+4 workspace number 4
+bindsym $mod+Shift+4 move container to workspace number 4
+
+# WS5: remember to update waybar's config.jasonc file
+#      for persistent desktops
+bindsym $mod+5 workspace number 5
+bindsym $mod+Shift+5 move container to workspace number 5
+
+# WS6: remember to update waybar's config.jasonc file
+#      for persistent desktops
+bindsym $mod+6 workspace number 6
+bindsym $mod+Shift+6 move container to workspace number 6
+
+# WS7: remember to update waybar's config.jasonc file
+#     for persistent desktops
+bindsym $mod+7 workspace number 7
+bindsym $mod+Shift+7 move container to workspace number 7
+
+# WS8: Spotify
+bindsym $mod+8 workspace number 8
+
+# WS9: Steam
+bindsym $mod+9 workspace number 9
+
+# WS0: Discord
+bindsym $mod+0 workspace number 10
+
+## APPLICATION RULES ##
+for_window [class="Code"] move container to workspace number 1
+for_window [app_id="firefox"] move container to workspace number 3
+for_window [class="spotify"] move container to workspace number 8
+for_window [class="discord"] move container to workspace number 10
