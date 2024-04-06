@@ -2,7 +2,7 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 45, // Waybar height (to be removed for auto height)
+    //"height": 45, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -32,22 +32,39 @@
         "tray"
     ],
     // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+     "sway/workspaces": {
+         "disable-scroll": false,
+         "buttons": 0,
+         "all-outputs": true,
+         "warp-on-scroll": true,
+         "persistent-workspaces": {
+            "1":[],
+            "2":[],
+            "3":[],
+            "4":[],
+            "5":[],
+            "6":[],
+            "7":[],
+            "8":[],
+            "9":[],
+            "10":[]
+         },
+         "format": "{icon}",
+         "format-icons": {
+            "1": "󰘐",
+            "2": "",
+            "3": "",
+            "4": "󰕰",
+            "5": "󰕰",
+            "6": "󰕰",
+            "7": "󰕰",
+            "8": "",
+            "9": "",
+            "10": "",
+            "urgent": ""
+         },
+         "order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+     },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
