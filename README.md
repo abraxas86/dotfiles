@@ -8,8 +8,9 @@ These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if the
 - Foot
 
 - lf-sixel-git
-    -libsixel
-    -chafa
+    - libsixel
+    - chafa
+    - a monospaced Nerd font of your choice
 
 - htop
 
@@ -19,6 +20,7 @@ These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if the
 
 **Status Bar:**
 - Waybar
+  - you will need a "Nerd" font for proper support.
 
 **Notifications:**
 - Sway Notification Center (swaync)
