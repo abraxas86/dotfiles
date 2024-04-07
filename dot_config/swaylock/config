@@ -10,7 +10,7 @@ font=Dark Angels
 font-size=50pt
 
 #[Input flags]
-grace=10
+grace=1
 indicator-caps-lock
 ignore-empty-password
 
