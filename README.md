@@ -1,6 +1,6 @@
 # dotfiles
 
-These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if they don't work for you lol
+These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if they don't work for you - I'm flying by the seat of my pants here and have very much adopted the "if it works it works" attitude lol
 
 ## Requirements:
 
