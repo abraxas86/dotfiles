@@ -210,6 +210,18 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }
+    },
+    "bluetooth": {
+        "format-connected": "",
+        "format-disconnected": "",
+        "format-no-device": "",
+        "device": "hci0",
+        "format": "{icon}",
+        "click-left": "bluetoothctl power off && bluetoothctl power on",
+        "click-middle": "bluetoothctl",
+        "click-right": "foot --hold bluetoothctl"
+      }
+      
+      
 
 }
