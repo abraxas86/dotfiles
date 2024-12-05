@@ -15,7 +15,7 @@ indicator-caps-lock
 ignore-empty-password
 
 #[Ring size]
-indicator-radius=100
+indicator-radius=150
 indicator-thickness=15
 
 #[Background]
