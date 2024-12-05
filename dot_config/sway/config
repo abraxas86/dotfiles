@@ -7,6 +7,12 @@
 #Launch these on start:
 exec swaync
 
+# Run XDG Desktop Portal (for OBS screen recording)
+#exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+#exec systmectl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+#exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+include /etc/sway/config.d/*
+
 ### Variables ###
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
@@ -122,7 +128,7 @@ output * bg ~/Pictures/wallpapers/cyberpunk2-2k.jpg fill
     bindsym $mod+L exec swaylock
 
     #File explorer
-    bindsym $mod+Shift+B exec nautilus
+    bindsym $mod+Shift+B exec thunar
 
     #Screenshots 
     ##Region
