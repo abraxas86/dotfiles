@@ -11,7 +11,7 @@ wezterm.on(
 -- Tab appearance settings
 local TAB_BAR_BG = "#0D101B"
 local TAB_ACTIVE_BG = "#461556"
-local TAB_ACTIVE_FG = "#EE243D"
+local TAB_ACTIVE_FG = "#FFFFFF" --"#EE243D"
 local TAB_INACTIVE_BG = "#111111"
 local TAB_INACTIVE_FG = "#AF2747"
 local TAB_LEFT_CAP = ""
