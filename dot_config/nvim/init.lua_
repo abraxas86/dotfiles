@@ -1,0 +1,45 @@
+-- ===== Initialize Plugin Manager ===
+-- Auto-install packer if not installed
+local install_path = vim.fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
+  vim.fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+  vim.cmd [[packadd packer.nvim]]
+end
+
+-- Use a protected call so we don't error out if packer isn't installed
+local status_ok, packer = pcall(require, "packer")
+if not status_ok then
+  return
+end
+
+-- Add plugins here:
+packer.startup(function()
+  use 'wbthomason/packer.nvim' -- Packer can manage itself
+  use 'preservim/nerdtree'      -- NERDTree plugin
+  use {
+    'scottmckendry/cyberdream.nvim', -- nvim theme
+    config = function()
+      require("cyberdream").setup({
+        transparent = true,
+        italic_comments = true,
+        -- Add other configuration options here if needed
+      })
+    end
+  }
+end)
+
+
+-- ===== Additional settings ===
+-- Show line numbers:
+vim.o.number = true
+
+-- Display NERDTree on open:
+vim.api.nvim_create_autocmd('VimEnter', {
+  callback = function()
+    vim.cmd('NERDTree')
+  end,
+})
+
+-- ALIASES Below
+-- Alias: add Clip command to copy text to system clipboard
+vim.api.nvim_create_user_command('Clip', '%y+', {})

@@ -1,4 +1,5 @@
 exec code
 exec vesktop
-exec firefox
+exec floorp
 exec spotify-launcher
+exec wayvnc 192.168.10.11

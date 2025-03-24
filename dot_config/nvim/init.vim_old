@@ -1,0 +1,17 @@
+"===== Initialize Plugin Manager === 
+call plug#begin('~/.local/share/nvim/plugged')
+
+" Add plugins here:
+Plug 'preservim/nerdtree'
+
+call plug#end()
+
+" Show line numbers:
+set number
+
+" Display NERDTree on open:
+autocmd VimEnter * NERDTree
+
+" ALIASES Below
+" Alias: add Clip command to copy text to system clipboard
+command! Clip %y+

@@ -12,7 +12,7 @@ bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+2 workspace number 2
 bindsym $mod+Shift+2 move container to workspace number 2
 
-# WS3: Firefox
+# WS3: Floorp
 bindsym $mod+3 workspace number 3
 bindsym $mod+Shift+3 move container to workspace number 3
 

@@ -18,7 +18,7 @@ BOTS="/home/abraxas/twitchBots/git"
 
 # Commands:
 alias copyclip='cut -d" " -f1 | wl-copy'
-
+alias wtf='nvim $(fzf --preview="cat {}")'
 
 # OBS Wayland Fix
 export QT_QPA_PLATFORM=wayland
@@ -48,3 +48,5 @@ export PATH=$BUN_INSTALL/bin:$PATH
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
+
+eval "$(thefuck --alias)"
