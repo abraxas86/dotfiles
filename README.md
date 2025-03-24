@@ -5,7 +5,8 @@ These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if the
 ## Requirements:
 
 **Terminal:**
-- Foot
+- ~~Foot~~
+- WezTerm
 
 - lf-sixel-git
     - libsixel
@@ -32,3 +33,6 @@ These are my dotfiles.  They seem to work okay, but YMMV.  Don't shoot me if the
 **Launchers:**
 - Wofi (haven't touched these configs yet)
 - uLauncher (not sure if I want to use this, yet)
+
+**Text Editors:**
+- NeoVim
